@@ -15,8 +15,8 @@ class GridGame extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       
-      height: MediaQuery.of(context).size.height*0.6,
-      width: MediaQuery.of(context).size.width*0.7,
+      height: MediaQuery.of(context).size.height*0.7,
+      width: MediaQuery.of(context).size.width*0.3,
       child: GridView.builder(
         itemCount:number.length ,
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(

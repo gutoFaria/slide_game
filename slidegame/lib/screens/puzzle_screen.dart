@@ -125,7 +125,9 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
 
   reset() {
     if (isCountdown) {
+      number.sort();
       cont = 0;
+      numberOfMoves = 0;
       setState(() {
         duration = countdownDuration;
       });
