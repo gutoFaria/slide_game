@@ -80,15 +80,13 @@ class _TimeScreenState extends State<TimeScreen> {
   }
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Column(
-        children: [
-          buildTime(),
-          const SizedBox(height: 80,),
-          buildButtons()
-        ],
-      ),),
-    );
+    return Center(child: Column(
+      children: [
+        buildTime(),
+        const SizedBox(height: 80,),
+        buildButtons()
+      ],
+    ),);
   }
 
   Widget buildTime(){

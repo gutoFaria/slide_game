@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'screens/board_screen.dart';
+import 'screens/puzzle_screen.dart';
 import 'screens/time_screen.dart';
 
 void main() {
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: //const TimeScreen(),
-      const BoardScreen()
+      //const BoardScreen()
+      const PuzzleScreen()
     );
   }
 }
